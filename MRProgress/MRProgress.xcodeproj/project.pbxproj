@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E27CB941AFA499600B860A0 /* MRProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CB931AFA499600B860A0 /* MRProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CB9A1AFA499600B860A0 /* MRProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E27CB8E1AFA499600B860A0 /* MRProgress.framework */; };
+		2E27CBA11AFA499600B860A0 /* MRProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27CBA01AFA499600B860A0 /* MRProgressTests.m */; };
+		2E27CBCF1AFA4A3D00B860A0 /* MRBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBAB1AFA4A3D00B860A0 /* MRBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBD01AFA4A3D00B860A0 /* MRBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27CBAC1AFA4A3D00B860A0 /* MRBlurView.m */; };
+		2E27CBD11AFA4A3D00B860A0 /* UIImage+MRImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBAD1AFA4A3D00B860A0 /* UIImage+MRImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBD21AFA4A3D00B860A0 /* UIImage+MRImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27CBAE1AFA4A3D00B860A0 /* UIImage+MRImageEffects.m */; };
+		2E27CBD31AFA4A3D00B860A0 /* MRActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBB01AFA4A3D00B860A0 /* MRActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBD41AFA4A3D00B860A0 /* MRActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27CBB11AFA4A3D00B860A0 /* MRActivityIndicatorView.m */; };
+		2E27CBD51AFA4A3D00B860A0 /* MRCircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBB21AFA4A3D00B860A0 /* MRCircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBD61AFA4A3D00B860A0 /* MRCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27CBB31AFA4A3D00B860A0 /* MRCircularProgressView.m */; };
+		2E27CBD71AFA4A3D00B860A0 /* MRIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBB41AFA4A3D00B860A0 /* MRIconView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBD81AFA4A3D00B860A0 /* MRIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27CBB51AFA4A3D00B860A0 /* MRIconView.m */; };
+		2E27CBD91AFA4A3D00B860A0 /* MRNavigationBarProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBB61AFA4A3D00B860A0 /* MRNavigationBarProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBDA1AFA4A3D00B860A0 /* MRNavigationBarProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27CBB71AFA4A3D00B860A0 /* MRNavigationBarProgressView.m */; };
+		2E27CBDB1AFA4A3D00B860A0 /* MRProgressOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBB81AFA4A3D00B860A0 /* MRProgressOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBDC1AFA4A3D00B860A0 /* MRProgressOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27CBB91AFA4A3D00B860A0 /* MRProgressOverlayView.m */; };
+		2E27CBDD1AFA4A3D00B860A0 /* MRProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBBA1AFA4A3D00B860A0 /* MRProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBDE1AFA4A3D00B860A0 /* MRProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27CBBB1AFA4A3D00B860A0 /* MRProgressView.m */; };
+		2E27CBDF1AFA4A3D00B860A0 /* MRStopableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBBC1AFA4A3D00B860A0 /* MRStopableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBE01AFA4A3D00B860A0 /* MRStopButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBBD1AFA4A3D00B860A0 /* MRStopButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBE11AFA4A3D00B860A0 /* MRStopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27CBBE1AFA4A3D00B860A0 /* MRStopButton.m */; };
+		2E27CBE81AFA4A3D00B860A0 /* MRMessageInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBC81AFA4A3D00B860A0 /* MRMessageInterceptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBE91AFA4A3D00B860A0 /* MRMessageInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27CBC91AFA4A3D00B860A0 /* MRMessageInterceptor.m */; };
+		2E27CBEA1AFA4A3D00B860A0 /* MRMethodCopier.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBCA1AFA4A3D00B860A0 /* MRMethodCopier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBEB1AFA4A3D00B860A0 /* MRMethodCopier.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27CBCB1AFA4A3D00B860A0 /* MRMethodCopier.m */; };
+		2E27CBEC1AFA4A3D00B860A0 /* MRProgressHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBCC1AFA4A3D00B860A0 /* MRProgressHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBED1AFA4A3D00B860A0 /* MRWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E27CBCD1AFA4A3D00B860A0 /* MRWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E27CBEE1AFA4A3D00B860A0 /* MRWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27CBCE1AFA4A3D00B860A0 /* MRWeakProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E27CB9B1AFA499600B860A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E27CB851AFA499600B860A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E27CB8D1AFA499600B860A0;
+			remoteInfo = MRProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E27CB8E1AFA499600B860A0 /* MRProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MRProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E27CB921AFA499600B860A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E27CB931AFA499600B860A0 /* MRProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRProgress.h; sourceTree = "<group>"; };
+		2E27CB991AFA499600B860A0 /* MRProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E27CB9F1AFA499600B860A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E27CBA01AFA499600B860A0 /* MRProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRProgressTests.m; sourceTree = "<group>"; };
+		2E27CBAB1AFA4A3D00B860A0 /* MRBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRBlurView.h; sourceTree = "<group>"; };
+		2E27CBAC1AFA4A3D00B860A0 /* MRBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRBlurView.m; sourceTree = "<group>"; };
+		2E27CBAD1AFA4A3D00B860A0 /* UIImage+MRImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MRImageEffects.h"; sourceTree = "<group>"; };
+		2E27CBAE1AFA4A3D00B860A0 /* UIImage+MRImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MRImageEffects.m"; sourceTree = "<group>"; };
+		2E27CBB01AFA4A3D00B860A0 /* MRActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRActivityIndicatorView.h; sourceTree = "<group>"; };
+		2E27CBB11AFA4A3D00B860A0 /* MRActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRActivityIndicatorView.m; sourceTree = "<group>"; };
+		2E27CBB21AFA4A3D00B860A0 /* MRCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCircularProgressView.h; sourceTree = "<group>"; };
+		2E27CBB31AFA4A3D00B860A0 /* MRCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCircularProgressView.m; sourceTree = "<group>"; };
+		2E27CBB41AFA4A3D00B860A0 /* MRIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRIconView.h; sourceTree = "<group>"; };
+		2E27CBB51AFA4A3D00B860A0 /* MRIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRIconView.m; sourceTree = "<group>"; };
+		2E27CBB61AFA4A3D00B860A0 /* MRNavigationBarProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNavigationBarProgressView.h; sourceTree = "<group>"; };
+		2E27CBB71AFA4A3D00B860A0 /* MRNavigationBarProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNavigationBarProgressView.m; sourceTree = "<group>"; };
+		2E27CBB81AFA4A3D00B860A0 /* MRProgressOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRProgressOverlayView.h; sourceTree = "<group>"; };
+		2E27CBB91AFA4A3D00B860A0 /* MRProgressOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRProgressOverlayView.m; sourceTree = "<group>"; };
+		2E27CBBA1AFA4A3D00B860A0 /* MRProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRProgressView.h; sourceTree = "<group>"; };
+		2E27CBBB1AFA4A3D00B860A0 /* MRProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRProgressView.m; sourceTree = "<group>"; };
+		2E27CBBC1AFA4A3D00B860A0 /* MRStopableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRStopableView.h; sourceTree = "<group>"; };
+		2E27CBBD1AFA4A3D00B860A0 /* MRStopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRStopButton.h; sourceTree = "<group>"; };
+		2E27CBBE1AFA4A3D00B860A0 /* MRStopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRStopButton.m; sourceTree = "<group>"; };
+		2E27CBC81AFA4A3D00B860A0 /* MRMessageInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRMessageInterceptor.h; sourceTree = "<group>"; };
+		2E27CBC91AFA4A3D00B860A0 /* MRMessageInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRMessageInterceptor.m; sourceTree = "<group>"; };
+		2E27CBCA1AFA4A3D00B860A0 /* MRMethodCopier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRMethodCopier.h; sourceTree = "<group>"; };
+		2E27CBCB1AFA4A3D00B860A0 /* MRMethodCopier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRMethodCopier.m; sourceTree = "<group>"; };
+		2E27CBCC1AFA4A3D00B860A0 /* MRProgressHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRProgressHelper.h; sourceTree = "<group>"; };
+		2E27CBCD1AFA4A3D00B860A0 /* MRWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRWeakProxy.h; sourceTree = "<group>"; };
+		2E27CBCE1AFA4A3D00B860A0 /* MRWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRWeakProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E27CB8A1AFA499600B860A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E27CB961AFA499600B860A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E27CB9A1AFA499600B860A0 /* MRProgress.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E27CB841AFA499600B860A0 = {
+			isa = PBXGroup;
+			children = (
+				2E27CB901AFA499600B860A0 /* MRProgress */,
+				2E27CB9D1AFA499600B860A0 /* MRProgressTests */,
+				2E27CB8F1AFA499600B860A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E27CB8F1AFA499600B860A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E27CB8E1AFA499600B860A0 /* MRProgress.framework */,
+				2E27CB991AFA499600B860A0 /* MRProgressTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E27CB901AFA499600B860A0 /* MRProgress */ = {
+			isa = PBXGroup;
+			children = (
+				2E27CBAA1AFA4A3D00B860A0 /* Blur */,
+				2E27CBAF1AFA4A3D00B860A0 /* Components */,
+				2E27CBBF1AFA4A3D00B860A0 /* Support */,
+				2E27CBC71AFA4A3D00B860A0 /* Utils */,
+				2E27CB931AFA499600B860A0 /* MRProgress.h */,
+				2E27CB911AFA499600B860A0 /* Supporting Files */,
+			);
+			path = MRProgress;
+			sourceTree = "<group>";
+		};
+		2E27CB911AFA499600B860A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E27CB921AFA499600B860A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E27CB9D1AFA499600B860A0 /* MRProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E27CBA01AFA499600B860A0 /* MRProgressTests.m */,
+				2E27CB9E1AFA499600B860A0 /* Supporting Files */,
+			);
+			path = MRProgressTests;
+			sourceTree = "<group>";
+		};
+		2E27CB9E1AFA499600B860A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E27CB9F1AFA499600B860A0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E27CBAA1AFA4A3D00B860A0 /* Blur */ = {
+			isa = PBXGroup;
+			children = (
+				2E27CBAB1AFA4A3D00B860A0 /* MRBlurView.h */,
+				2E27CBAC1AFA4A3D00B860A0 /* MRBlurView.m */,
+				2E27CBAD1AFA4A3D00B860A0 /* UIImage+MRImageEffects.h */,
+				2E27CBAE1AFA4A3D00B860A0 /* UIImage+MRImageEffects.m */,
+			);
+			path = Blur;
+			sourceTree = "<group>";
+		};
+		2E27CBAF1AFA4A3D00B860A0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2E27CBB01AFA4A3D00B860A0 /* MRActivityIndicatorView.h */,
+				2E27CBB11AFA4A3D00B860A0 /* MRActivityIndicatorView.m */,
+				2E27CBB21AFA4A3D00B860A0 /* MRCircularProgressView.h */,
+				2E27CBB31AFA4A3D00B860A0 /* MRCircularProgressView.m */,
+				2E27CBB41AFA4A3D00B860A0 /* MRIconView.h */,
+				2E27CBB51AFA4A3D00B860A0 /* MRIconView.m */,
+				2E27CBB61AFA4A3D00B860A0 /* MRNavigationBarProgressView.h */,
+				2E27CBB71AFA4A3D00B860A0 /* MRNavigationBarProgressView.m */,
+				2E27CBB81AFA4A3D00B860A0 /* MRProgressOverlayView.h */,
+				2E27CBB91AFA4A3D00B860A0 /* MRProgressOverlayView.m */,
+				2E27CBBA1AFA4A3D00B860A0 /* MRProgressView.h */,
+				2E27CBBB1AFA4A3D00B860A0 /* MRProgressView.m */,
+				2E27CBBC1AFA4A3D00B860A0 /* MRStopableView.h */,
+				2E27CBBD1AFA4A3D00B860A0 /* MRStopButton.h */,
+				2E27CBBE1AFA4A3D00B860A0 /* MRStopButton.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2E27CBBF1AFA4A3D00B860A0 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		2E27CBC71AFA4A3D00B860A0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2E27CBC81AFA4A3D00B860A0 /* MRMessageInterceptor.h */,
+				2E27CBC91AFA4A3D00B860A0 /* MRMessageInterceptor.m */,
+				2E27CBCA1AFA4A3D00B860A0 /* MRMethodCopier.h */,
+				2E27CBCB1AFA4A3D00B860A0 /* MRMethodCopier.m */,
+				2E27CBCC1AFA4A3D00B860A0 /* MRProgressHelper.h */,
+				2E27CBCD1AFA4A3D00B860A0 /* MRWeakProxy.h */,
+				2E27CBCE1AFA4A3D00B860A0 /* MRWeakProxy.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E27CB8B1AFA499600B860A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E27CB941AFA499600B860A0 /* MRProgress.h in Headers */,
+				2E27CBD51AFA4A3D00B860A0 /* MRCircularProgressView.h in Headers */,
+				2E27CBED1AFA4A3D00B860A0 /* MRWeakProxy.h in Headers */,
+				2E27CBD11AFA4A3D00B860A0 /* UIImage+MRImageEffects.h in Headers */,
+				2E27CBD71AFA4A3D00B860A0 /* MRIconView.h in Headers */,
+				2E27CBDD1AFA4A3D00B860A0 /* MRProgressView.h in Headers */,
+				2E27CBEC1AFA4A3D00B860A0 /* MRProgressHelper.h in Headers */,
+				2E27CBD91AFA4A3D00B860A0 /* MRNavigationBarProgressView.h in Headers */,
+				2E27CBEA1AFA4A3D00B860A0 /* MRMethodCopier.h in Headers */,
+				2E27CBDF1AFA4A3D00B860A0 /* MRStopableView.h in Headers */,
+				2E27CBE01AFA4A3D00B860A0 /* MRStopButton.h in Headers */,
+				2E27CBCF1AFA4A3D00B860A0 /* MRBlurView.h in Headers */,
+				2E27CBDB1AFA4A3D00B860A0 /* MRProgressOverlayView.h in Headers */,
+				2E27CBE81AFA4A3D00B860A0 /* MRMessageInterceptor.h in Headers */,
+				2E27CBD31AFA4A3D00B860A0 /* MRActivityIndicatorView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E27CB8D1AFA499600B860A0 /* MRProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E27CBA41AFA499600B860A0 /* Build configuration list for PBXNativeTarget "MRProgress" */;
+			buildPhases = (
+				2E27CB891AFA499600B860A0 /* Sources */,
+				2E27CB8A1AFA499600B860A0 /* Frameworks */,
+				2E27CB8B1AFA499600B860A0 /* Headers */,
+				2E27CB8C1AFA499600B860A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRProgress;
+			productName = MRProgress;
+			productReference = 2E27CB8E1AFA499600B860A0 /* MRProgress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E27CB981AFA499600B860A0 /* MRProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E27CBA71AFA499600B860A0 /* Build configuration list for PBXNativeTarget "MRProgressTests" */;
+			buildPhases = (
+				2E27CB951AFA499600B860A0 /* Sources */,
+				2E27CB961AFA499600B860A0 /* Frameworks */,
+				2E27CB971AFA499600B860A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E27CB9C1AFA499600B860A0 /* PBXTargetDependency */,
+			);
+			name = MRProgressTests;
+			productName = MRProgressTests;
+			productReference = 2E27CB991AFA499600B860A0 /* MRProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E27CB851AFA499600B860A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Hemanta Sapkota";
+				TargetAttributes = {
+					2E27CB8D1AFA499600B860A0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					2E27CB981AFA499600B860A0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2E27CB881AFA499600B860A0 /* Build configuration list for PBXProject "MRProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E27CB841AFA499600B860A0;
+			productRefGroup = 2E27CB8F1AFA499600B860A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E27CB8D1AFA499600B860A0 /* MRProgress */,
+				2E27CB981AFA499600B860A0 /* MRProgressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E27CB8C1AFA499600B860A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E27CB971AFA499600B860A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E27CB891AFA499600B860A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E27CBDC1AFA4A3D00B860A0 /* MRProgressOverlayView.m in Sources */,
+				2E27CBE91AFA4A3D00B860A0 /* MRMessageInterceptor.m in Sources */,
+				2E27CBD41AFA4A3D00B860A0 /* MRActivityIndicatorView.m in Sources */,
+				2E27CBDE1AFA4A3D00B860A0 /* MRProgressView.m in Sources */,
+				2E27CBEE1AFA4A3D00B860A0 /* MRWeakProxy.m in Sources */,
+				2E27CBEB1AFA4A3D00B860A0 /* MRMethodCopier.m in Sources */,
+				2E27CBE11AFA4A3D00B860A0 /* MRStopButton.m in Sources */,
+				2E27CBD01AFA4A3D00B860A0 /* MRBlurView.m in Sources */,
+				2E27CBD21AFA4A3D00B860A0 /* UIImage+MRImageEffects.m in Sources */,
+				2E27CBD61AFA4A3D00B860A0 /* MRCircularProgressView.m in Sources */,
+				2E27CBDA1AFA4A3D00B860A0 /* MRNavigationBarProgressView.m in Sources */,
+				2E27CBD81AFA4A3D00B860A0 /* MRIconView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E27CB951AFA499600B860A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E27CBA11AFA499600B860A0 /* MRProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E27CB9C1AFA499600B860A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E27CB8D1AFA499600B860A0 /* MRProgress */;
+			targetProxy = 2E27CB9B1AFA499600B860A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E27CBA21AFA499600B860A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E27CBA31AFA499600B860A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E27CBA51AFA499600B860A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MRProgress/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2E27CBA61AFA499600B860A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MRProgress/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2E27CBA81AFA499600B860A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MRProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E27CBA91AFA499600B860A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MRProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E27CB881AFA499600B860A0 /* Build configuration list for PBXProject "MRProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E27CBA21AFA499600B860A0 /* Debug */,
+				2E27CBA31AFA499600B860A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E27CBA41AFA499600B860A0 /* Build configuration list for PBXNativeTarget "MRProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E27CBA51AFA499600B860A0 /* Debug */,
+				2E27CBA61AFA499600B860A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E27CBA71AFA499600B860A0 /* Build configuration list for PBXNativeTarget "MRProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E27CBA81AFA499600B860A0 /* Debug */,
+				2E27CBA91AFA499600B860A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E27CB851AFA499600B860A0 /* Project object */;
+}
